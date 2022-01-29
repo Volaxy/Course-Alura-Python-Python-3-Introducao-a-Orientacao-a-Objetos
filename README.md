@@ -70,3 +70,13 @@ A variável `acc` fica sem uma referência para o objeto criado.
 
 Dentro da máquina virtual do Python, existe um processo que descarta as variáveis sem referência, essa ferramenta se chama **Garbage Collector**.
 * A palavra reservada `None` desvincula o valor ou referência de uma variável (equivalente ao `null` do Java ou C#).
+
+## 04 - Encapsulamento &#x1F516;
+
+### 01 - Atributos Privados
+* `__` antes do nome do **atributo** o torna um **atributo privado**.
+* O **Python** avisa ao desenvolvedor sobre **atributos privados** colocando `_CLASSNAME__ATTIRBUTE` ao acessar os atributos da classe.
+* A ação de tornar privado o acesso aos atributos, no mundo Orientado a Objetos, chamamos de **encapsulamento**.
+
+### 02 - Encapsulamento
+* Deixar os métodos mais claros utilizando o `self`.
