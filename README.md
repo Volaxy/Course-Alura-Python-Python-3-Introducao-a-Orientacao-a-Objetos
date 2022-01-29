@@ -10,7 +10,7 @@ URL do curso -> [Python 3 - Introdução a Orientação a Objetos](https://curso
 
 ![Python 3 - Introdução a Orientação a Objetos](https://www.alura.com.br/assets/api/share/curso-python-3-intro-orientacao-objetos.png)
 
-## 01 - O Problema do Paradigma Procedural
+## 01 - O Problema do Paradigma Procedural &#x1F516;
 * Dicionário.
 * Funções.
 * Encapsulamento de código.
@@ -22,7 +22,7 @@ URL do curso -> [Python 3 - Introdução a Orientação a Objetos](https://curso
 ### 02 - Dados e Compotamento
 * Sem orientação à objetos, é possível criar diferentes variáveis contendo diferentes valores.
 
-## 02 - Classes e Objetos
+## 02 - Classes e Objetos &#x1F516;
 * Classes.
 * Objetos.
 * Função construtora.
@@ -45,3 +45,28 @@ URL do curso -> [Python 3 - Introdução a Orientação a Objetos](https://curso
 
 ### 03 - Acessando Atributos
 * Para acessar os **Atributos** de determinada classe, usamos `OBJECT_NAME.ATTIBUTE`, acessando primeiro a referência para o objeto criado, em seguida o nome do **atributo**.
+
+## 03 - Implementando Métodos &#x1F516;
+* Métodos, que definem o comportamento de uma classe.
+* Criação de métodos.
+* Como chamar métodos através do objeto.
+* Acesso aos atributos através do `self`.
+* *Garbage Collector*.
+* O tipo `None`.
+
+### 01 - Usando Métodos
+* Acessar os métodos através de `OBJECT.METHOD()`.
+* O valor `self` nos parâmetros do método é preenchida automaticamente quando o método é chamado.
+* A palavra reservada `self` se refere ao objeto atual em que ela está inserida.
+
+### 02 - None e Coletor de Lixo
+* Quando um objeto fica sem referência, como:
+```
+acc = Account(1, "Anny", 500, 1000)
+acc = Account(2, "Bia", 500, 1000)
+```
+
+A variável `acc` fica sem uma referência para o objeto criado.
+
+Dentro da máquina virtual do Python, existe um processo que descarta as variáveis sem referência, essa ferramenta se chama **Garbage Collector**.
+* A palavra reservada `None` desvincula o valor ou referência de uma variável (equivalente ao `null` do Java ou C#).
