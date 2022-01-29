@@ -21,3 +21,27 @@ URL do curso -> [Python 3 - Introdução a Orientação a Objetos](https://curso
 
 ### 02 - Dados e Compotamento
 * Sem orientação à objetos, é possível criar diferentes variáveis contendo diferentes valores.
+
+## 02 - Classes e Objetos
+* Classes.
+* Objetos.
+* Função construtora.
+* Endereço e referência de objetos.
+* Atributos de classe.
+* Acesso aos atributos através do objeto.
+
+### 01 - Classe e Objeto
+* Criar uma **classe**.
+* Criar objetos para criar diferentes tipo de variáveis com características iguais.
+* Usar a palavra `pass` para indicar para o compilador que o código ainda será escrito, evitando erros de sintaxe do compilador.
+* Criar uma classe usando `CLASS_NAME()`.
+
+### 02 - Construtor
+* As características de uma **classe** se chamam **atributos**.
+* A função `def __init__(self)` é chamada automaticamente ao construir um objeto.
+* O parâmetro `self` é o valor de referência para o **objeto** criado.
+* Em `Orientação a Objetos`, as variáveis são denominadas **referências**.
+* Em `Orientação a Objetos`, as características são chamadas de **Atributos**.
+
+### 03 - Acessando Atributos
+* Para acessar os **Atributos** de determinada classe, usamos `OBJECT_NAME.ATTIBUTE`, acessando primeiro a referência para o objeto criado, em seguida o nome do **atributo**.
