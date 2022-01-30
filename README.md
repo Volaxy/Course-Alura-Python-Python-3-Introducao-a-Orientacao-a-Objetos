@@ -98,3 +98,16 @@ Dentro da máquina virtual do Python, existe um processo que descarta as variáv
 * Usar o `@property` para definir uma propriedade de um **atributo** funcionando como um **getter**.
 * Usar o `@ATTRIBUTE.setter` para definir um **setter** de um **atributo**.
 * A função `title()` retorna a primeira letra da string em maiúscula.
+
+## 06 - Métodos Privados e Estáticos &#x1F516;
+* Métodos privados.
+* Métodos da classe, os métodos estáticos.
+
+### 01 - Métodos Privados
+* Criar **funções privadas** com `__FUNCTION_NAME()`.
+
+### 02 - Métodos da Classe
+* Um ***static method*** pertence à **Classe** e não ao **Objeto**.
+* Definir um ***static method*** com `@staticmethod`.
+* Um **decorator** é uma palavra chave que é precedida por `@`.
+* Usar **atributos estáticos**.
