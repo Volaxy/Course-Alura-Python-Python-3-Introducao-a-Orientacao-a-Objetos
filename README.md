@@ -72,6 +72,10 @@ Dentro da máquina virtual do Python, existe um processo que descarta as variáv
 * A palavra reservada `None` desvincula o valor ou referência de uma variável (equivalente ao `null` do Java ou C#).
 
 ## 04 - Encapsulamento &#x1F516;
+* Atributos privados.
+* Encapsulamento de código.
+* Encapsulamento da manipulação dos atributos nos métodos.
+* Coesão do código.
 
 ### 01 - Atributos Privados
 * `__` antes do nome do **atributo** o torna um **atributo privado**.
@@ -80,3 +84,17 @@ Dentro da máquina virtual do Python, existe um processo que descarta as variáv
 
 ### 02 - Encapsulamento
 * Deixar os métodos mais claros utilizando o `self`.
+
+## 05 - Usando Propriedades &#x1F516;
+* Métodos de leitura dos atributos, os ***getters***.
+* Métodos de modifição dos atributos, os ***setters***.
+* Propriedades.
+
+### 01 - Getters e Setters
+* Criar métodos **get** usando o `get_ATTRIBUTE` para retornar um atributo.
+* Criar métodos **set** usando o `set_ATTRIBUTE` para definir um atributo.
+
+### 02 - Propriedades
+* Usar o `@property` para definir uma propriedade de um **atributo** funcionando como um **getter**.
+* Usar o `@ATTRIBUTE.setter` para definir um **setter** de um **atributo**.
+* A função `title()` retorna a primeira letra da string em maiúscula.
