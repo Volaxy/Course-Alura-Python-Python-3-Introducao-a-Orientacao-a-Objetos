@@ -10,6 +10,8 @@ URL do curso -> [Python 3 - Introdução a Orientação a Objetos](https://curso
 
 ![Python 3 - Introdução a Orientação a Objetos](https://www.alura.com.br/assets/api/share/curso-python-3-intro-orientacao-objetos.png)
 
+***
+
 ## 01 - O Problema do Paradigma Procedural &#x1F516;
 * Dicionário.
 * Funções.
@@ -21,6 +23,8 @@ URL do curso -> [Python 3 - Introdução a Orientação a Objetos](https://curso
 
 ### 02 - Dados e Compotamento
 * Sem orientação à objetos, é possível criar diferentes variáveis contendo diferentes valores.
+
+***
 
 ## 02 - Classes e Objetos &#x1F516;
 * Classes.
@@ -45,6 +49,8 @@ URL do curso -> [Python 3 - Introdução a Orientação a Objetos](https://curso
 
 ### 03 - Acessando Atributos
 * Para acessar os **Atributos** de determinada classe, usamos `OBJECT_NAME.ATTIBUTE`, acessando primeiro a referência para o objeto criado, em seguida o nome do **atributo**.
+
+***
 
 ## 03 - Implementando Métodos &#x1F516;
 * Métodos, que definem o comportamento de uma classe.
@@ -71,6 +77,8 @@ A variável `acc` fica sem uma referência para o objeto criado.
 Dentro da máquina virtual do Python, existe um processo que descarta as variáveis sem referência, essa ferramenta se chama **Garbage Collector**.
 * A palavra reservada `None` desvincula o valor ou referência de uma variável (equivalente ao `null` do Java ou C#).
 
+***
+
 ## 04 - Encapsulamento &#x1F516;
 * Atributos privados.
 * Encapsulamento de código.
@@ -85,6 +93,8 @@ Dentro da máquina virtual do Python, existe um processo que descarta as variáv
 ### 02 - Encapsulamento
 * Deixar os métodos mais claros utilizando o `self`.
 
+***
+
 ## 05 - Usando Propriedades &#x1F516;
 * Métodos de leitura dos atributos, os ***getters***.
 * Métodos de modifição dos atributos, os ***setters***.
@@ -98,6 +108,8 @@ Dentro da máquina virtual do Python, existe um processo que descarta as variáv
 * Usar o `@property` para definir uma propriedade de um **atributo** funcionando como um **getter**.
 * Usar o `@ATTRIBUTE.setter` para definir um **setter** de um **atributo**.
 * A função `title()` retorna a primeira letra da string em maiúscula.
+
+***
 
 ## 06 - Métodos Privados e Estáticos &#x1F516;
 * Métodos privados.
